@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Halo</td>
+                <td>Gratis</td> 
+            </tr>
+            <tr>
+                <td>El Jeilo</td>
+                <td>30,50$</td> 
+            </tr>
+            <tr>
+                <td>El Jeilo Berde</td>
+                <td>60,99$</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 91.49$</td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <br>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:upper-latin">Sub Elemento 1</li>
+                <li style="list-style-type:upper-latin">Sub Elemento 2</li>
+                <li style="list-style-type:upper-latin">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre, estupido"/>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido, estupido"/>
+        <br>
+        <label for="cometario">Cometario:</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <button type="reset">Clear</button>
+    </form>
+    <h1>Aprendiendo HTML</h1>
+    <h2>Mi primer heading</h2>
+    <h3> Titulo 3:</h3>
+    <p>Empece hace poco pero creo que le estoy cogiendo el
+        truco a esto y se ve EZ de momento
+    </p>
+    <hr>
+    <h2>Hiden notes to Costumers</h2>
+    <!--Tonto quien lo lea-->
+    <p>En la linea anterior escribi algo pero si no lo ves lo hecho bien
+        xd 
+    </p>
+    <h2>Resaltar palabras o frases</h2>
+    <p>Este texto simplemente es relleno 
+        entonces bla bla bla bla<br>
+         es para ver si me sale lo de <span style="color:blue">SPAN</span>
+    </p>
+    <a target="_blank" href="https://www.instagram.com/">Sigueme en Insta</a>
+    <img src="Img/IWillBe.png" width="400" height="300"/>
+    
+</body> 
+</html>
