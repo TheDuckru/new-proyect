@@ -1,3 +1,5 @@
+/**color de elementos**/
+
 #titulo {
     color: red;
 }   
@@ -5,7 +7,21 @@
 .post{
     color: blue;
 }              
-
 article h2{
     color: tomato;
 }
+
+/**bordes de elementos**/
+
+header h1{
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 10px;
+    height: 50px;
+    background-image: url(ImgStyle/oip.png);
+    background-size: contain;
+    text-align: center;
+}
+
+
